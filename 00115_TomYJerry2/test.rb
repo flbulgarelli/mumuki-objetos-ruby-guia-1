@@ -1,4 +1,4 @@
-describe "Tom y Jerry 2" do
+describe "" do
     describe "#velocidad" do
         it "es 5 si tiene energia 0" do
            tom.energia = 0
@@ -13,13 +13,13 @@ describe "Tom y Jerry 2" do
            expect(tom.velocidad).to eq 15
         end
     end
-    
+
     describe "#conviene_comer_a?" do
        it "no le conviene si la distancia no es suficientemente corta" do
-           expect(tom.conviene_comer_a?(jerry, 10)).to be false 
+           expect(tom.conviene_comer_a?(jerry, 10)).to be false
        end
        it "le conviene si la distancia es suficientemente corta" do
-           expect(tom.conviene_comer_a?(jerry,  8)).to be true 
+           expect(tom.conviene_comer_a?(jerry,  8)).to be true
        end
     end
 end
