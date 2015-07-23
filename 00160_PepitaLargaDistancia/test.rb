@@ -4,7 +4,7 @@ describe "PepitaLargaDistancia" do
         it("pepita.distancia_a(buenos_airesbuenos_aires)) debe ser 0") do
             expect(pepita.distancia_a(buenos_aires)).to eq 0
         end
-        it("pepita.distancia_a() debe ser 407") do
+        it("pepita.distancia_a(santa_fe) debe ser 407") do
           expect(pepita.distancia_a(santa_fe)).to eq 407
         end
         it("pepita.distancia_a(cordoba) debe ser 898") do
